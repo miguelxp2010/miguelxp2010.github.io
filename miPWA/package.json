@@ -1,0 +1,21 @@
+{
+  "name": "mg",
+  "version": "1.0.0",
+  "description": "Modulo 4, primer proyecto HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "it",
+    "master",
+    "miguel",
+    "garcia"
+  ],
+  "author": "Miguel Garcia",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
