@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="notas.css">
+    <title>Notas donde quieras</title>
+    <!-- investigar: "display flex" como técnica para acomodar items -->
+</head>
+
+<body>
+    <script src="notas.js"></script>
+    <div id="FrmLogin" class="ver">
+        <label for="txtNombre">Nombre: <input id="txtNombre" type="text"></label>
+        <input type="button" id="cmdIngresar" value="Ingresar"/>
+    </div>
+    <div id="FrmLista" class="nover">
+        <h2 id="hEncabezado">Notas</h2>
+        <div class="danger container">
+            <p><strong>Urgente!</strong><br/>Reunión de directorio...</p>
+        </div>
+        
+        <div class="success container">
+            <p><strong>Proyecto!</strong><br/>Desarrollo de Notas PWA en curso...</p>
+        </div>
+        
+        <div class="info container">
+            <p><strong>Aprender!</strong><br/>Invertigar cómo ocultar DIVs para hacer single-page app...</p>
+        </div>
+        
+        <div class="warning container">
+            <p><strong>Tener en cuenta!</strong><br/>Sólo quedan tres clases...</p>
+        </div>    </div>
+</body>
+</html>
